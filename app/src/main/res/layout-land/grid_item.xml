@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp">
+
+   <ImageView
+       android:id="@+id/gridImage"
+       android:layout_width="0dp"
+       android:layout_height="250dp"
+       android:scaleType="fitXY"
+       android:adjustViewBounds="true"
+
+       android:src="@drawable/wonderfilm"
+       android:layout_marginLeft="-166dp"
+       app:layout_constraintLeft_toRightOf="parent"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       android:layout_marginStart="5dp"
+       android:layout_marginTop="-2dp" />
+
+   <TextView
+       style="@style/TextviewLimitText"
+       android:id="@+id/TitleItemMainGridview"
+       android:layout_width="170dp"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="0dp"
+       android:text="My Name Is Abdelrahman"
+       android:textSize="@dimen/MainItemTextFont"
+       app:layout_constraintLeft_toLeftOf="@+id/gridImage"
+       app:layout_constraintTop_toBottomOf="@+id/gridImage"
+       android:textColor="@color/Black"
+       android:layout_marginLeft="-3dp" />
+
+   <TextView
+       style="@style/TextviewLimitText"
+       android:id="@+id/RateItemMainGridview"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="11dp"
+       android:layout_marginTop="10dp"
+       android:text="5.4"
+       android:textSize="@dimen/MainItemTextFont"
+       app:layout_constraintLeft_toLeftOf="@+id/TitleItemMainGridview"
+       app:layout_constraintTop_toBottomOf="@+id/TitleItemMainGridview"
+       android:textColor="@color/Black"
+       android:layout_marginStart="11dp" />
+
+    <Button
+        android:id="@+id/likeImageViewItemGrid"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/dislike"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@+id/TitleItemMainGridview"
+        app:layout_constraintLeft_toRightOf="@+id/RateItemMainGridview"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginBottom="50dp"
+        android:focusable="false"/>
+
+</android.support.constraint.ConstraintLayout>

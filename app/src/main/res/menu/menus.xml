@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/mostPopular"
+        android:id="@+id/sortByPopularity"/>
+    <item android:title="@string/topRated"
+        android:id="@+id/sortByTopRated"/>
+    <item android:title="Favourite"
+        android:id="@+id/SortByFavourite"
+        app:showAsAction="never"/>
+</menu>

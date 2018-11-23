@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MoviesStage1</string>
+    <string name="release_data">Release Data</string>
+    <string name="vote_average">Vote Average</string>
+    <string name="overview">Overview</string>
+    <string name="mostPopular">most popular</string>
+    <string name="topRated">top rated</string>
+    <string name="noData">No Connection</string>
+    <string name="retry">Retry</string>
+    <string name="movieDetails">Movie Details</string>
+</resources>
