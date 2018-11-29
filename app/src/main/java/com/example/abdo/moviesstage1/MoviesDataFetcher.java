@@ -94,6 +94,7 @@ public class MoviesDataFetcher extends AsyncTask<String, Void, List<MovieEntry>>
        }
        return new ArrayList<>(map.values());
    }
+   
     @Override
     protected void onPostExecute(List<MovieEntry> movieEntries) {
         if(this.Tag== DataFetchercritiria.Favourite)
